@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: block;
+    text-align: center;
+}
+
+
+.container{
+    margin-top: 50px; 
+    background-color: black;
+    height: 500px;
+}
+
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+button{
+    margin-top: 15px;
+    width: 300px;
+    padding: 25px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+button:hover {
+    background-color: #595868;
+}
+
+.success-message {
+    background-color: rgb(116, 240, 67);
+    padding: 16px;
+    color:#000;
+    display: none;
+    text-align: center;
+}
+
+.error-message {
+    font-size: 16px;
+    padding: 18px;
+    background-color: red;
+    color: #000;
+    margin-bottom: 8px;
+    display: none;
+    text-align: center;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
+
